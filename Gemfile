@@ -6,6 +6,7 @@ gem 'puma', '~> 3.0'
 gem 'responders', '~> 2.0' #for respond_to and respond_with
 gem 'rails_param' #to validate/coerce request parameters
 gem 'rack-cors', :require => 'rack/cors' #to set up cors
+gem 'gcm'
 
 group :development, :test do
   gem 'byebug', platform: :mri
